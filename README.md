@@ -1,15 +1,8 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7831005&assignment_repo_type=AssignmentRepo)
 
 
-| Name                | Sec | BN  |
-| ------------------- | --- | --- |
-| Ezzeldeen Esmail    | 1   | 50  |
-| Noran ElShahat      | 2   | 40  |
-| Moamen Gamal        | 2   | 11  |
-| omar sayed          | 2   | 2   |
-| Abdelrahman Almahdy | 1   | 45  |
 
-### Questions output and explanation
+# Image Segmentation
 # RegionGrownig 
  ```
  A.  The way this function works is by the Getting  the RGP of each point and make an estimate of the box neigbour values 
@@ -207,3 +200,10 @@ the result for k = 5
 | :---------------------------------------------------------------: | :------------------------------------------------------: |
 | ![Image](./K_Means/images/beach.jpg) | ![Image](./K_Means/images/kmeans.jpg) |
 
+| Name                | Sec | BN  |
+| ------------------- | --- | --- |
+| Ezzeldeen Esmail    | 1   | 50  |
+| Noran ElShahat      | 2   | 40  |
+| Moamen Gamal        | 2   | 11  |
+| omar sayed          | 2   | 2   |
+| Abdelrahman Almahdy | 1   | 45  |
