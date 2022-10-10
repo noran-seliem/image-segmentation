@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QGraphicsView" name="graphicsView"/>
+    </item>
+    <item>
+     <widget class="QGraphicsView" name="graphicsView_2"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+   </widget>
+   <widget class="QMenu" name="menuedit">
+    <property name="title">
+     <string>edit</string>
+    </property>
+    <addaction name="actionK_means"/>
+    <addaction name="actionRegion_Groeing"/>
+    <addaction name="actionAgglomerative"/>
+    <addaction name="actionMean_Shift"/>
+   </widget>
+   <widget class="QMenu" name="menuthreesholding">
+    <property name="title">
+     <string>threesholding</string>
+    </property>
+    <widget class="QMenu" name="menuOtsu">
+     <property name="title">
+      <string>Otsu</string>
+     </property>
+     <addaction name="Global_Otsu"/>
+     <addaction name="Local_Otsu"/>
+    </widget>
+    <widget class="QMenu" name="menuoptimal">
+     <property name="title">
+      <string>optimal</string>
+     </property>
+     <addaction name="globalOptimal"/>
+     <addaction name="LocalOptimal"/>
+    </widget>
+    <addaction name="menuOtsu"/>
+    <addaction name="menuoptimal"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuedit"/>
+   <addaction name="menuthreesholding"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionK_means">
+   <property name="text">
+    <string>K means</string>
+   </property>
+  </action>
+  <action name="actionRegion_Groeing">
+   <property name="text">
+    <string>Region Groeing</string>
+   </property>
+  </action>
+  <action name="actionAgglomerative">
+   <property name="text">
+    <string>Agglomerative</string>
+   </property>
+  </action>
+  <action name="actionMean_Shift">
+   <property name="text">
+    <string>Mean Shift</string>
+   </property>
+  </action>
+  <action name="actionOptimal">
+   <property name="text">
+    <string>Optimal</string>
+   </property>
+  </action>
+  <action name="Global_Otsu">
+   <property name="text">
+    <string>global</string>
+   </property>
+  </action>
+  <action name="Local_Otsu">
+   <property name="text">
+    <string>local</string>
+   </property>
+  </action>
+  <action name="globalOptimal">
+   <property name="text">
+    <string>global</string>
+   </property>
+  </action>
+  <action name="LocalOptimal">
+   <property name="text">
+    <string>local</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

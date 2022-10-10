@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1013</width>
+    <height>842</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QGraphicsView" name="graphicsView"/>
+    </item>
+    <item>
+     <widget class="QGraphicsView" name="graphicsView_2"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1013</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionopen"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionAggolimaerative"/>
+    <addaction name="actionRegion_Growing"/>
+    <addaction name="actionKMeansClustering"/>
+    <addaction name="actionLUV"/>
+    <addaction name="actionMeanShift"/>
+   </widget>
+   <widget class="QMenu" name="menuThreesholding">
+    <property name="title">
+     <string>Threesholding</string>
+    </property>
+    <addaction name="actionOptyimal"/>
+    <addaction name="actionSpectiral"/>
+    <addaction name="actionLocal"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuThreesholding"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionopen">
+   <property name="text">
+    <string>open</string>
+   </property>
+  </action>
+  <action name="actionAgglomerative">
+   <property name="text">
+    <string>Agglomerative</string>
+   </property>
+  </action>
+  <action name="actionAggolimaerative">
+   <property name="text">
+    <string>Aggolimaerative</string>
+   </property>
+  </action>
+  <action name="actionRegion_Growing">
+   <property name="text">
+    <string>Region Growing</string>
+   </property>
+  </action>
+  <action name="actionKMeansClustering">
+   <property name="text">
+    <string>KMeansClustering</string>
+   </property>
+  </action>
+  <action name="actionLUV">
+   <property name="text">
+    <string>LUV</string>
+   </property>
+  </action>
+  <action name="actionMeanShift">
+   <property name="text">
+    <string>MeanShift</string>
+   </property>
+  </action>
+  <action name="actionOptyimal">
+   <property name="text">
+    <string>Optyimal</string>
+   </property>
+  </action>
+  <action name="actionSpectiral">
+   <property name="text">
+    <string>Spectiral</string>
+   </property>
+  </action>
+  <action name="actionLocal">
+   <property name="text">
+    <string>Local</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
